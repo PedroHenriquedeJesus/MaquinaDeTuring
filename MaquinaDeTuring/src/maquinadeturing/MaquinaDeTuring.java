@@ -32,8 +32,8 @@ public class MaquinaDeTuring {
     }
     public void q0(){
         if(cont < fita.length){
-            if(fita[cont] == 'T'){
-               fita[cont] = 'T';
+            if(fita[cont] == 'A'){
+               fita[cont] = 'A';
                cont++;
                 q4();
             }
@@ -113,8 +113,8 @@ public class MaquinaDeTuring {
                 cont++;
                 q3();
             }
-            else if (fita[cont] == 'T'){
-                fita[cont] = 'T';
+            else if (fita[cont] == 'A'){
+                fita[cont] = 'A';
                 cont++;
                 q4();
             }
@@ -140,4 +140,5 @@ public class MaquinaDeTuring {
         }
         System.err.println("Palavra não aceita");
     }
+    
 }
